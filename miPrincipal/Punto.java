@@ -31,7 +31,7 @@ public class Punto{
 		
 		public void setX(int valor)
 		{
-		   this.x= valor;
+		  this.x=valor;
 		}
 		public void setY(int valor)
 		{

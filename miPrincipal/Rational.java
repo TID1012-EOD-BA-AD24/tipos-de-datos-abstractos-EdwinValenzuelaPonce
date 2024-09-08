@@ -60,7 +60,7 @@ public class Rational{
         return a.getDenominador()*b.getNumerador() == b.getDenominador()*a.getNumerador();
     }
     public boolean equal(Rational a){
-        return (this.getDenominador()*a.getNumerador()==
+        return (this.getDenominador()*a.getNumerador() ==
         a.getDenominador()*this.getNumerador());
     }
     @Override
